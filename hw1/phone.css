@@ -1,0 +1,51 @@
+button {
+    width: 150px;
+    height: 50px;
+    background: Snow;
+    color: DarkSlateGray;
+    margin: 10px;
+}
+
+button.btn_tab {
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    background: LightSalmon;
+    color: Black;
+    font-weight: bold;
+}
+
+button.btn_dial_num {
+    width: 50px;
+    height: 40px;
+    margin: 4px;
+    background: Cornsilk;
+}
+
+button.btn_dial_go {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+button.btn_confirm {
+    background: LawnGreen;
+}
+
+button.btn_clear {
+    background: Tomato;
+}
+
+button.btn_add_contact {
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+button.btn_contacts {
+    width: 200px;
+    height: 30px;
+    margin: 4px;
+}
