@@ -1,0 +1,3 @@
+[submodule "20u-csi5v93-S1-HCIA-hw"]
+	path = 20u-csi5v93-S1-HCIA-hw
+	url = git@github.com:Baylor-Hwamin/20u-csi5v93-S1-HCIA-hw.git
