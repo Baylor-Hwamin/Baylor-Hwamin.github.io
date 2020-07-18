@@ -1,0 +1,323 @@
+<html lang="en">
+
+<head>
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="phone.css">
+</head>
+
+<body>
+    <header role="banner">
+        <div id="my_alert" style="display: none" class="alert_form">
+            <p>The alert will trigger when the element becomes visible.</p>
+        </div>
+        <div class="menu" id="div_menu">
+            <button class="menu_content" id="menu_blog">Home</button>
+            <button class="menu_content" id="menu_dial">Dial</button>
+            <button class="menu_content" id="menu_about">About</button>
+        </div>
+    </header>
+    <main role="main">
+        <div id="page_blog">
+            <h1 class="blog_h1">Accessibility Blog</h1>
+            <div class="posts" id="div_posts">
+                <div class="post" id="post_1">
+                    <div class="post_content" id="post_content_01">
+                        <h2>Cheek to Cheek</h2>
+                        <p>
+                            Heaven, I'm in heaven,<br>
+                            And my heart beats so that I can hardly speak<br>
+                            And I seem to find the happiness I seek<br>
+                            When we're out together dancing, cheek to cheek<br>
+                        </p>
+                        <p>
+                            Heaven, I'm in heaven,<br>
+                            And the cares that hang around me through the week<br>
+                            Seem to vanish like a gambler's lucky streak<br>
+                            When we're out together dancing, cheek to cheek<br>
+                        </p>
+                        <p>
+                            Oh! I love to climb a mountain,<br>
+                            And to reach the highest peak,<br>
+                            But it doesn't thrill me half as much<br>
+                            As dancing cheek to cheek<br>
+                        </p>
+                        <p>
+                            Oh! I love to go out fishing<br>
+                            In a river or a creek,<br>
+                            But I don't enjoy it half as much<br>
+                            As dancing cheek to cheek<br>
+                        </p>
+                        <p>
+                            Dance with me<br>
+                            I want my arm about you<br>
+                            The charm about you<br>
+                            Will carry me through to heaven<br>
+                        </p>
+                        <p>
+                            I'm in heaven<br>
+                            And my heart beats so that I can hardly speak<br>
+                            And I seem to find the happiness I seek<br>
+                            When we're out together dancing cheek to cheek<br>
+                        </p>
+                    </div>
+                    <div class="post_comment_input" id="post_comment_input_01">
+                        <form class="pure-form" id="form_add_comment_name_01">
+                            <label class="label_add_comment" for="add_comment_name_01">Name:</label>
+                            <input class="add_comment_form" id="add_comment_name_01" placeholder="">
+                            <label class="label_add_comment" for="add_comment_email_01">Email Address:</label>
+                            <input class="add_comment_form" id="add_comment_email_01" placeholder="">
+                        </form>
+                        <form class="pure-form pure-form-stacked add_comment_content" id="form_add_comment_content_01">
+                            <label class="label_add_comment" for="add_comment_content_01">Comment</label>
+                            <input class="add_comment_content" id="add_comment_content_01" placeholder="">
+                        </form>
+                        <div>
+                            <button class="btn_add_comment btn_confirm" id="btn_add_comment_confirm" onclick="triggerAlert()">Add Comment</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="post_2">
+                    <div class="post_content" id="post_content_02">
+                        <h2>All of Me</h2>
+                        <p>
+                            All of me<br>
+                            Why not take all of me<br>
+                            Can't you see<br>
+                            I'm no good without you<br>
+                            Take my lips<br>
+                            I want to lose them<br>
+                            Take my arms<br>
+                            I'll never use them<br>
+                        </p>
+                        <p>
+                            Your goodbye left me with eyes that cry<br>
+                            How can I go on dear without you<br>
+                            You took the part that once was my heart<br>
+                            So why not take all of me<br>
+                        </p>
+                        <table class="tbl_chords" style="width:100%">
+                            <tr>
+                                <th>Measure 1</th>
+                                <th>Measure 2</th>
+                                <th>Measure 3</th>
+                                <th>Measure 4</th>
+                            </tr>
+                            <tr>
+                                <td>CM7</td>
+                                <td>CM7</td>
+                                <td>E7</td>
+                                <td>E7</td>
+                            </tr>
+                            <tr>
+                                <td>A7</td>
+                                <td>A7</td>
+                                <td>Dm7</td>
+                                <td>Dm7</td>
+                            </tr>
+                            <tr>
+                                <td>E7</td>
+                                <td>E7</td>
+                                <td>Am7</td>
+                                <td>Am7</td>
+                            </tr>
+                            <tr>
+                                <td>D7</td>
+                                <td>D7</td>
+                                <td>Dm7</td>
+                                <td>G7</td>
+                            </tr>
+                            <tr>
+                                <td>CM7</td>
+                                <td>CM7</td>
+                                <td>E7</td>
+                                <td>E7</td>
+                            </tr>
+                            <tr>
+                                <td>A7</td>
+                                <td>A7</td>
+                                <td>Dm7</td>
+                                <td>Dm7</td>
+                            </tr>
+                            <tr>
+                                <td>FM7</td>
+                                <td>Fm6</td>
+                                <td>Em7</td>
+                                <td>A7</td>
+                            </tr>
+                            <tr>
+                                <td>Dm7</td>
+                                <td>G7</td>
+                                <td>C6 &nbsp; - &nbsp; Ebdim7</td>
+                                <td>Dm7 &nbsp; - &nbsp; G7</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="post_comment_input" id="post_comment_input_02">
+                        <form class="pure-form" id="form_add_comment_name_02">
+                            <label class="label_add_comment" for="add_comment_name_02">Name:</label>
+                            <input class="add_comment_form" id="add_comment_name_02" placeholder="">
+                            <label class="label_add_comment" for="add_comment_email_02">Email Address:</label>
+                            <input class="add_comment_form" id="add_comment_email_02" placeholder="">
+                        </form>
+                        <form class="pure-form pure-form-stacked" id="form_add_comment_content_02">
+                            <label class="label_add_comment" for="add_comment_content_02">Comment</label>
+                            <input class="add_comment_content" id="add_comment_content_02" placeholder="">
+                        </form>
+                        <div>
+                            <button class="btn_add_comment btn_confirm" id="btn_add_comment_confirm" onclick="triggerAlert()">Add Comment</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="post_3">
+                    <div class="post_content" id="post_content_03">
+                        <h2>Korean Cuisine: Eobokjangban</h2>
+                        <img src="image/eobokjangban.png" alt="Eo-bok-jang-ban Korean Cuisine"></img>
+                        <p>
+                            Eobokjangban (eo-bok-jang-ban): A dish that contains several pieces of beef cuts in a brass tray.
+                        </p>
+                        <p>
+                            It is one of the local foods in Pyongyang. It is generally known as a food that originated and developed in the shopping district of Pyongyang.
+                            For this reason, when a hostile feeling arises due to mutual interests while bargaining, it is sometimes interpreted that it develops in a mall because hostility or tension is relieved and demanding entertainment becomes easier.
+                        </p>
+                        <p>
+                            To make it, boil the cow's head meat, brisket, and breast meat, slice it into thin slices, and season it. Then, put egg cracker, green onion, pear, and pine nuts as garnish and place the soy sauce in the middle and pour hot broth.
+                        </p>
+                    </div>
+                    <div class="post_comment_input" id="post_comment_input_03">
+                        <form class="pure-form" id="form_add_comment_name_03">
+                            <label class="label_add_comment" for="add_comment_name_03">Name:</label>
+                            <input class="add_comment_form" id="add_comment_name_03" placeholder="">
+                            <label class="label_add_comment" for="add_comment_email_03">Email Address:</label>
+                            <input class="add_comment_form" id="add_comment_email_03" placeholder="">
+                        </form>
+                        <form class="pure-form pure-form-stacked add_comment_content" id="form_add_comment_content_03">
+                            <label class="label_add_comment" for="add_comment_content_03">Comment</label>
+                            <input class="add_comment_content" id="add_comment_content_03" placeholder="">
+                        </form>
+                        <div>
+                            <button class="btn_add_comment btn_confirm" id="btn_add_comment_confirm" onclick="triggerAlert()">Add Comment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page_dial">
+            <div id="tag_bar">
+                <button class="btn_tab" id="btn_dialer">Dialer</button>
+                <button class="btn_tab" id="btn_ct_list">Contact List</button>
+                <button class="btn_tab" id="btn_add_ct">Add Contact</button>
+                <button class="btn_tab" id="btn_gesture">Gesture</button>
+            </div>
+            <div id="area_bottom">
+                <div id="bottom_gesture" class="div_bottom_gesture"></div>
+            </div>
+            <div id="content">
+                <div id="dialer">
+                    <h1>Dialer</h1>
+                    <form class="pure-form pure-form-stacked" id="form_input_dial">
+                        <label class="hidden" for="input_dial">Input Dial</label>
+                        <input id="input_dial" type="text" value="">
+                    </form>
+                    <div>
+                        <button class="btn_dial_num" id="btn_num_1">1</button>
+                        <button class="btn_dial_num" id="btn_num_2">2</button>
+                        <button class="btn_dial_num" id="btn_num_3">3</button>
+                    </div>
+                    <div>
+                        <button class="btn_dial_num" id="btn_num_4">4</button>
+                        <button class="btn_dial_num" id="btn_num_5">5</button>
+                        <button class="btn_dial_num" id="btn_num_6">6</button>
+                    </div>
+                    <div>
+                        <button class="btn_dial_num" id="btn_num_7">7</button>
+                        <button class="btn_dial_num" id="btn_num_8">8</button>
+                        <button class="btn_dial_num" id="btn_num_9">9</button>
+                    </div>
+                    <div>
+                        <button class="btn_dial_num" id="btn_num_star">*</button>
+                        <button class="btn_dial_num" id="btn_num_0">0</button>
+                        <button class="btn_dial_num" id="btn_num_pound">#</button>
+                    </div>
+                    <div>
+                        <button class="btn_dial_go btn_confirm" id="btn_dial">Dial</button>
+                        <button class="btn_dial_go btn_clear" id="btn_dial_clear">Clear</button>
+                    </div>
+                </div>
+            </div>
+            <div id="contact_list">
+                <h1>Contact List</h1>
+                <div>
+                    <button class="btn_contacts" id="btn_contact_001">Robert Drake</button>
+                    <button class="btn_contacts" id="btn_contact_002">Emma Frost</button>
+                    <button class="btn_contacts" id="btn_contact_003">Doreen Green</button>
+                </div>
+                <div>
+                    <button class="btn_contacts" id="btn_contact_004">Jean Grey</button>
+                    <button class="btn_contacts" id="btn_contact_005">James Howlett</button>
+                    <button class="btn_contacts" id="btn_contact_006">Ororo Munroe</button>
+                </div>
+                <div>
+                    <button class="btn_contacts" id="btn_contact_007">Katherine Pryde</button>
+                    <button class="btn_contacts" id="btn_contact_008">Piotr Rasputin</button>
+                    <button class="btn_contacts" id="btn_contact_009">Scott Summers</button>
+                </div>
+                <div>
+                    <button class="btn_contacts" id="btn_contact_010">Kurt Wagner</button>
+                    <button class="btn_contacts" id="btn_contact_011">Warren Worthington</button>
+                    <button class="btn_contacts" id="btn_contact_012">Charles Xavier</button>
+                </div>
+            </div>
+            <div id="add_contact">
+                <h1>Add Contact</h1>
+                <form class="pure-form pure-form-stacked" id="form_add_contact_name">
+                    <label for="add_contact_name">Name</label>
+                    <input id="add_contact_name" placeholder="Jane Smith">
+                </form>
+                <form class="pure-form pure-form-stacked" id="form_add_contact_phone_num">
+                    <label for="add_contact_phone_num">Phone Number</label>
+                    <input id="add_contact_phone_num" placeholder="123-456-7890">
+                </form>
+                <form class="pure-form pure-form-stacked" id="form_add_contact_email">
+                    <label for="add_contact_email">Email Address</label>
+                    <input id="add_contact_email" placeholder="jane.smith@baylor.edu">
+                </form>
+                <div>
+                    <button class="btn_add_contact btn_confirm" id="btn_add_contact_confirm">Add Contact</button>
+                    <button class="btn_add_contact btn_clear" id="btn_add_contact_clear">Clear</button>
+                </div>
+            </div>
+            <div id="tab_gesture">
+                <h1>Gesture</h1>
+                <label class="hidden" for="gesture_output">Gesture Output</label>
+                <input id="gesture_output" class="inp_gesture">
+                <div id="gesture_area" class="div_gesture"></div>
+            </div>
+        </div>
+        <div id="page_about">
+            <div class="post">
+                <h2>About</h2>
+                <div>
+                    <ul>
+                        <li>Author</li>
+                        <ul>
+                            <li>Hwamin Kim</li>
+                        </ul>
+                        <li>email</li>
+                        <ul>
+                            <li>quicksort00@gmail.com</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="blog.js"></script>
+        <script src="phone.js"></script>
+    </div>
+</body>
+
+</html>

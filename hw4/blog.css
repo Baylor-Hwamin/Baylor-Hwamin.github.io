@@ -1,0 +1,110 @@
+div.menu {
+    font-size: 30px;
+    font-weight: bold;
+    background: GhostWhite;
+    margin: 0vh 0vw 0vh 0vw;
+    padding: 0.5vh 1vw 0.5vh 1vw;
+}
+
+h1.blog_h1 {
+    padding: 0.1vh 1vw 0.1vh 1vw;
+}
+
+button {
+    width: 10em;
+    height: 2em;
+    background: Snow;
+    color: DarkSlateGray;
+    margin: 0vh 0vw 0vh 0vw;
+}
+
+button.menu_content {
+    height: 1.2em;
+
+    display: inline;
+    padding: 0vh 0vw 0vh 0vw;
+    margin: 0vh 2vw 0vh 0vw;
+
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: Black;
+}
+
+button.btn_confirm {
+    background: LawnGreen;
+}
+
+button.btn_add_comment {
+    width: 10em;
+    height: 2em;
+    margin: 0vh 0vw 0vh 0vw;
+    font-weight: bold;
+}
+
+div.posts {
+    background: GhostWhite;
+    padding: 0.1vh 0.2vw 0.1vh 0.2vw;
+}
+
+div.post {
+    background: Ivory;
+    margin: 0vh 0.5vw 2vh 0.5vw;
+    padding: 0vh 0vw 0vh 0vw;
+}
+
+div.post_content {
+    background: OldLace;
+    margin: 0vh 0vw 1vh 0vw;
+    padding: 0.1vh 1vw 0.5vh 1vw;
+}
+
+div.post_comment_input {
+    background: OldLace;
+    margin: 0vh 0vw 2vh 0vw;
+    padding: 1vh 1vw 1vh 1vw;
+}
+
+label.label_add_comment {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input.add_comment_form {
+    width: 20vw;
+    height: 1.5em;
+    margin: 0vh 3vw 0vh 0vw;
+}
+
+input.add_comment_content {
+    width: 90vw;
+    height: 2.0em;
+}
+
+
+table.tbl_chords,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-weight: bold;
+    table-layout: fixed;
+    padding: 0.2vh 0.4vw 0.2vh 0.4vw;
+}
+
+div.alert_form {
+    width: 100vw;
+    height: 3em;
+    display: table-cell;
+    vertical-align: middle;
+    color: Snow;
+    background: OrangeRed;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
