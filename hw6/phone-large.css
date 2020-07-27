@@ -1,0 +1,223 @@
+html {
+    background: #0d1a26;
+}
+
+.hidden {
+    display: none;
+}
+
+div.menu {
+    font-size: 40px;
+    font-weight: bold;
+    color: GhostWhite;
+    background: #1f1f14;
+    margin: 0vh 0vw 0vh 0vw;
+    padding: 0.5vh 1vw 0.5vh 1vw;
+}
+
+a {
+    color: GhostWhite;
+}
+
+h1 {
+    font-size: 40px;
+    color: GhostWhite;
+}
+
+h1.blog_h1 {
+    padding: 0.1vh 1vw 0.1vh 1vw;
+}
+
+h2.h2_about {
+    font-size: 30px;
+    color: GhostWhite;
+}
+
+button {
+    background: Black;
+    color: GhostWhite;
+    font-size: 20px;
+    font-weight: bold;
+    height: 2ex;
+    margin: 0vh 0vw 0vh 0vw;
+    width: 10em;
+}
+
+button.btn_add_comment {
+    width: 10em;
+    height: 2ex;
+    margin: 0vh 0vw 0vh 0vw;
+    font-weight: bold;
+}
+
+button.btn_add_contact {
+    width: 8em;
+    height: 4ex;
+    margin: 0.2em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button.btn_confirm {
+    background: #284d00;
+}
+
+button.btn_clear {
+    background: #801300;
+}
+
+button.btn_contacts {
+    width: 12em;
+    height: 4ex;
+    margin: 0.2em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button.btn_dial_num {
+    width: 2em;
+    height: 3ex;
+    margin: 0.1em;
+    background: Black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button.btn_dial_go {
+    width: 3.16em;
+    height: 3ex;
+    margin: 0.1em;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button.btn_tab {
+    width: 200px;
+    height: 50px;
+    margin: 4px;
+    background: #802400;
+    color: GhostWhite;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+button.menu_content {
+    width: 3em;
+    height: 2ex;
+
+    display: inline;
+    padding: 0vh 0vw 0vh 0vw;
+    margin: 0vh 2vw 0vh 0vw;
+
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: GhostWhite;
+}
+
+div {
+    background: #0d1a26;
+}
+
+div.posts {
+    background: GhostWhite;
+    padding: 0.1vh 0.2vw 0.1vh 0.2vw;
+}
+
+div.post {
+    color: GhostWhite;
+    background: #0d1a26;
+    margin: 0vh 0.5vw 2vh 0.5vw;
+    padding: 0vh 0vw 0vh 0vw;
+}
+
+div.div_about {
+    font-size: 20px;
+    font-weight: bold;
+    color: GhostWhite;
+    background: #0d1a26;
+}
+
+div.post_content {
+    background: OldLace;
+    margin: 0vh 0vw 1vh 0vw;
+    padding: 0.1vh 1vw 0.5vh 1vw;
+}
+
+div.post_comment_input {
+    background: OldLace;
+    margin: 0vh 0vw 2vh 0vw;
+    padding: 1vh 1vw 1vh 1vw;
+}
+
+div.alert_form {
+    width: 100vw;
+    height: 3em;
+    display: table-cell;
+    vertical-align: middle;
+    color: Snow;
+    background: OrangeRed;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.div_gesture {
+    width: 300px;
+    height: 300px;
+    border: DarkGray;
+    background: Gainsboro;
+    margin: 10px;
+}
+
+div.div_bottom_gesture {
+    width: 510px;
+    height: 80px;
+    border: 3px solid DarkRed;
+    background: LightSalmon;
+    margin: 5px;
+}
+
+table.tbl_chords,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-weight: bold;
+    table-layout: fixed;
+    padding: 0.2vh 0.4vw 0.2vh 0.4vw;
+}
+
+label.label_add_comment {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input:valid {
+    width: 13em;
+    height: 4ex;
+    background: #3d3d29;
+    color: GhostWhite;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0.4em;
+}
+
+input.add_comment_form {
+    width: 20vw;
+    height: 1.5em;
+    margin: 0vh 3vw 0vh 0vw;
+}
+
+input.add_comment_content {
+    width: 90vw;
+    height: 2.0em;
+}
+
+input.inp_gesture {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+}
