@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <title>Assignment 7</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <header role="banner">
+    </header>
+    <main role="main">
+        <div>
+            <h1>Esspresso machine BOT</h1>
+        </div>
+        <div>
+            <iframe height="600" width="400" src="https://console.dialogflow.com/api-client/demo/embedded/2d3ec775-2e10-495a-9bc3-e6ece4b533f4"></iframe>
+            <img src="espresso_machine_small.png">
+            Image source: JURA Inc. (https://us.jura.com/)
+        </div>
+        <div id="page_about">
+            <div class="post">
+                <h2 class="h2_about">Features & Changes</h2>
+                <div class="div_about">
+
+                    <ul>
+                        <li>Features</li>
+                        <ul>
+                            <li>This interface is for the automatic espresso machine. The user can brew 3 types of coffee by its voice command. If user just say “brew coffee”, the interface will let user know the exact type of coffee should be specified. When user want to know more information of the commands, I prepared the help command triggered by “How to use”.</li>
+                        </ul>
+                        <li>Changes</li>
+                        <ul>
+                            <li>I tested with two participants for this interface. For these experiments, I prepared the flowchart and brief responses in advance. I focus to act like a real speech interface, so it sometimes frustrated the user. After the first phase of the test for each participants, I added some instant response on the flowchart to cover unexpected queries and restart the test whether it can satisfy the user’s command.</li>
+                            <li>After the first experiment, I realized that I only focused on the types of coffee. The user wanted an iced coffee or a cafe latte with extra shot. Since the target machine only supports the limited types of coffee, I should add handling steps for these requests. After the experiment, the user hoped that it would be better if this interface offer categorized commands. She doesn’t wanted to wait for a long sentence, and she expected that the interface works like an step-by-step ARS system. I applied this idea on the flowchart to decrease the length of the sentence.</li>
+                            <li>In the second experiment, the user wanted to add syrups on the coffee. I added the handling scenario later. Moreover, when the machine informed that there is only few water in the machine, the user wanted to know how to refill water on the tank. Except some unexpected cases, the entire scenario was more smooth than the first experiment.</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </main>
+    <div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
