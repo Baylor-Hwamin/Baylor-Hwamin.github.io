@@ -1,24 +1,160 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
-	<head>
-		<title>
-			Calculator Demo
-		</title>
-	</head>
-	<body>
-		<div>
-			<div>
-				<a href="key1/index.html">1-key calculator</a>
-			<div>
-			<div>
-				<a href="key2/index.html">2-key calculator</a>
-			<div>
-			<div>
-				<a href="key3/index.html">3-key calculator</a>
-			<div>
-			</div>
-				<a href="key5/index.html">5-key calculator</a>
-			</div>
-		</div>
-	</body>
+
+<head>
+    <title>
+        Assignment 8
+    </title>
+</head>
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 3px;
+    }
+
+    th,
+    td {
+        text-align: left;
+        padding: 3px;
+    }
+</style>
+
+<body>
+    <h1>Assignemnt 8: N-key calculator (Hwamin Kim)</h1>
+    <div>
+        <h2>N-key calculators</h2>
+        <div>
+            <a href="key1/index.html">1-key calculator</a>
+        </div>
+        <div>
+            <a href="key2/index.html">2-key calculator</a>
+        </div>
+        <div>
+            <a href="key3/index.html">3-key calculator</a>
+        </div>
+        <div>
+            <a href="key5/index.html">5-key calculator</a>
+        </div>
+    </div>
+    <div>
+        <div id="experiment">
+            <h2>N-key calculator experiment result</h2>
+            <ul>
+                <li>Summary</li>
+                <ul>
+                    <li>While increasing the number of keys, the total calculating times weredecreased.</li>
+                    <li>The difference between the method become increasing while the number of keys are increasing.</li>
+                    <li>However, in the case of foot and head, it was getting tired for many numbers of keys. Especially, the 5 keys with head experiment brought little neck pain.</li>
+                    <li>In this experiment, I think the the more key can increase the speed for any input method, but it may cause the fatigue of the body. (except the finger or hand based interface)</li>
+                </ul>
+                <li>Raw result (Time, average seconds)</li>
+                <ul>
+                    <li>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>Hand</th>
+                                <th>Foot</th>
+                                <th>Head</th>
+                            </tr>
+                            <tr>
+                                <td><b>1-key calc</b></td>
+                                <td>798</td>
+                                <td>912</td>
+                                <td>1039</td>
+                            </tr>
+                            <tr>
+                                <td><b>2-key calc</b></td>
+                                <td>489</td>
+                                <td>791</td>
+                                <td>938</td>
+                            </tr>
+                            <tr>
+                                <td><b>3-key calc</b></td>
+                                <td>339</td>
+                                <td>642</td>
+                                <td>583</td>
+                            </tr>
+                            <tr>
+                                <td><b>5-key calc</b></td>
+                                <td>264</td>
+                                <td>652</td>
+                                <td>837</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>Graph</li>
+                    <ul>
+                        <li><img src="experiment_graph.png" width=40% height=40%></li>
+                    </ul>
+                    <li>One interesting part is 3-key calculator with head experiment. The average speed was fater than the experiment with foot. I think this is because the 1st experiment was the 3-key head. It might have little chance that participants felt neck pain.</li>
+                </ul>
+                <li>Experiment Method</li>
+                <ul>
+                    <li>experiments</li>
+                    <ul>
+                        <li>4 N-key calculators: 1, 2, 3, and 5 key(s) calculator</li>
+                        <li>3 input way for each calculator: Hand, Foot, and Head</li>
+                        <li>3 calculation euations (randomly generated) for each combination.</li>
+                        <li>Total 36 times of tests.</li>
+                    </ul>
+                    <li>method</li>
+                    <ul>
+                        <li>Tested with 3 participants (12 tests for each person)</li>
+                        <li>Measure the total time for calculating 10 equations.</li>
+                        <li>Measure the number of the error. The error was only counted when they 'selected' the wrong key in accident. (Since there were too many moving mistake, I only counted the errors for wrong selection.)</li>
+                    </ul>
+                </ul>
+                <li>Experiment set</li>
+                <ul>
+                    <li>Set 1</li>
+                    <ul>
+                        <li>01: 702572 + 985413 * 953931 = ?</li>
+                        <li>02: 553479 / 431215 / 190236 = ?</li>
+                        <li>03: 798264 - 968518 + 511237 = ?</li>
+                        <li>04: 834520 + 766543 - 500302 = ?</li>
+                        <li>05: 901306 - 584355 / 673057 = ?</li>
+                        <li>06: 580714 + 664322 / 729900 = ?</li>
+                        <li>07: 886096 * 284590 * 376971 = ?</li>
+                        <li>08: 469525 - 336188 / 749846 = ?</li>
+                        <li>09: 301615 * 883812 / 663357 = ?</li>
+                        <li>10: 886831 + 200485 / 105339 = ?</li>
+                    </ul>
+                    <li>Set 2</li>
+                    <ul>
+                        <li>01: 625331 + 835214 / 790547 = ?</li>
+                        <li>02: 737043 - 720099 * 493255 = ?</li>
+                        <li>03: 478617 + 885702 - 517686 = ?</li>
+                        <li>04: 283599 * 549572 / 550573 = ?</li>
+                        <li>05: 962402 - 508206 / 471893 = ?</li>
+                        <li>06: 649552 * 690189 / 103037 = ?</li>
+                        <li>07: 948181 / 916786 * 166121 = ?</li>
+                        <li>08: 264167 / 671035 - 163265 = ?</li>
+                        <li>09: 237539 * 253105 - 468709 = ?</li>
+                        <li>10: 680566 - 148430 / 715219 = ?</li>
+                    </ul>
+                    <li>Set 3</li>
+                    <ul>
+                        <li>01: 985581 * 103564 + 840294 = ?</li>
+                        <li>02: 654512 - 917356 / 554743 = ?</li>
+                        <li>03: 410338 + 818733 * 471831 = ?</li>
+                        <li>04: 447806 / 306561 + 833526 = ?</li>
+                        <li>05: 289661 * 178638 * 721933 = ?</li>
+                        <li>06: 882704 - 898680 / 443947 = ?</li>
+                        <li>07: 625850 + 356356 + 841452 = ?</li>
+                        <li>08: 363107 / 655703 - 833415 = ?</li>
+                        <li>09: 925856 / 638078 / 764880 = ?</li>
+                        <li>10: 977874 / 823044 / 377799 = ?</li>
+                    </ul>
+                    <li><a href="experiment_table.jpg">Raw experiment result</a></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+
 </html>
